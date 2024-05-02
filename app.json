@@ -3,7 +3,7 @@
   "description": "[Bagaskara-Userbot] userbot Telegram modular yang berjalan pada Python 3.9+",
   "logo": "https://telegra.ph/file/63267910585608a6302b0.jpg",
   "keywords": ["telegram", "userbot", "Bagaskara-Userbot", "modular", "python"],
-  "repository": "https://github.com/ybgskr12/Bagaskara-Userbot",
+  "repository": "https://github.com/Teemsoha/xxxxxxza",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -31,7 +31,7 @@
     {
     "plan": "heroku-postgresql",
       "options": {
-        "version": "12"
+        "version": "15"
       }
     }
   ],
@@ -46,7 +46,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "free"
+      "size": "eco"
     }
   }
 }
