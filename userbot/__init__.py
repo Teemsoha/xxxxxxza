@@ -126,7 +126,7 @@ BLACKLIST_GCAST = {int(x) for x in os.environ.get("BLACKLIST_GCAST", "").split()
 # For Blacklist Group Support
 BLACKLIST_CHAT = os.environ.get("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001795125065]
+    BLACKLIST_CHAT = [-100186815346]
 
 # Telegram App KEY and HASH
 API_KEY = int(os.environ.get("API_KEY") or 0)
@@ -175,7 +175,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
-    "UPSTREAM_REPO_URL", "https://github.com/ybgskr12/Bagaskara-Userbot2.git"
+    "UPSTREAM_REPO_URL", "https://github.com/Teemsoha/xxxxxxza.git"
 )
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Bagaskara-Userbot")
@@ -223,7 +223,7 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 ALIVE_TEKS_CUSTOM = os.environ.get("ALIVE_TEKS_CUSTOM", None)
 
 # Default .alive name
-ALIVE_NAME = os.environ.get("ALIVE_NAME", "Bagaskara-Userbot")
+ALIVE_NAME = os.environ.get("ALIVE_NAME", "الفا")
 
 # Custom Emoji Alive
 ALIVE_EMOJI = os.environ.get("ALIVE_EMOJI", "✪")
@@ -258,7 +258,7 @@ ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
 
 # Default .alive logo
 ALIVE_LOGO = (
-    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/63267910585608a6302b0.jpg"
+    os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/4c2f34b02f53ce16ea003.jpg"
 )
 
 INLINE_PIC = (
@@ -267,11 +267,11 @@ INLINE_PIC = (
 
 # Picture For VCPLUGIN
 PLAY_PIC = (
-    os.environ.get("PLAY_PIC") or "https://telegra.ph/file/6213d267348beca02967.png"
+    os.environ.get("PLAY_PIC") or "https://telegra.ph/file/4c2f34b02f53ce16ea003.jpg"
 )
 
 QUEUE_PIC = (
-    os.environ.get("QUEUE_PIC") or "https://telegra.ph/file/d6f92c979ad96b2031cba.png"
+    os.environ.get("QUEUE_PIC") or "https://telegra.ph/file/4c2f34b02f53ce16ea003.jpg"
 )
 
 # Last.fm Module
